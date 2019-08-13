@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FCC Product Landing Page</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+   
+
+    <header id="header">
+        <div class="logo">
+            <img id="header-img" src="https://res.cloudinary.com/psifon/image/upload/v1523619819/psifon/psifon-logo-icon-main.png" alt="PSIFON Logo" />
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li>
+                    <a href="#hero" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="#video" class="nav-link">About Us</a>
+                </li>
+                <li>
+                    <a href="#subscribe" class="nav-link">Subscribe</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="hero">
+        <div class="hero-content">
+            <h1>A new generation of bikers.</h1>
+            <span>Strong will. Clearer vision.</span>
+
+            <a href="#video" class="start">Get Started</a>
+        </div>
+    </div>
+
+    <div class="video-section">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/rs_A3sU6QQs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+
+    <section id="subscribe" class="subscribe">
+        <form action="https://www.freecodecamp.com/email-submit" method="GET" id="form">
+            <div class="rowTab">
+                <div class="labels">
+                    <label for="email">Connect with us:</label>
+                </div>
+                <div class="rightTab">
+                    <input id="email" name="email" type="email" placeholder="Enter your email" />
+                </div>
+            </div>
+            <input id="submit" type="submit" value="Subscribe" />
+        </form>
+    </section>
+
+</body>
+</html>
