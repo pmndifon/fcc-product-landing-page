@@ -1,0 +1,162 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.6em;
+}
+
+/* 
+** Header
+*/
+
+#header {
+    background-color: #44689E;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    margin-bottom: 0px;
+    z-index: 100;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    vertical-align: middle;
+}
+
+#nav-bar {
+    margin: 10px;
+}
+
+#nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+    letter-spacing: 1pt;
+}
+
+#nav-bar li {
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+#nav-bar li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* 
+** Hero
+*/
+
+#hero {
+    background-image: linear-gradient(to left, #f09459, #e66586);
+    margin-top: 0;
+    height: 600px;
+    z-index: 0;
+}
+
+.hero-content {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    margin-bottom: 10px;
+    line-height: 1.2em;
+}
+
+.start {
+    display: block;
+    margin: 30px auto 0px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #fff;
+    width: 150px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* 
+** Video
+*/
+
+.video-section {
+    position: relative;
+    height: 500px;
+    text-align: center;
+}
+
+#video {
+    transform: translateY(30%);
+}
+
+
+/* 
+** Subscribe
+*/
+
+#subscribe {
+    background-color: #6ACC4B;
+    position: relative;
+    text-align: center;
+    padding: 50px;
+}
+
+#form {
+    width: 100%;
+    text-align: center;
+}
+
+.rowTab .labels {
+    font-weight: 700;
+}
+
+.rightTab input {
+    height: 25px;
+    width: 250px;
+    border: none;
+    margin: 10px 0px 20px 0px;
+    padding: 5px;
+    background: #f1f1f1;
+}
+
+.rightTab input:focus {
+    outline: none;
+}
+
+#submit {
+    width: 100px;
+    height: 35px;
+    border: none;
+    padding: 10px;
+    background-color: #44689E;
+    color: white;
+    border-radius: 5px;
+}
+
+/* 
+** Media Queries
+*/
+@media screen and (max-width: 480px) {
+    .hero-content {
+        font-size: 1em;
+        line-height: 2em;
+    }
+}
